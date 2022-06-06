@@ -1,0 +1,58 @@
+.wrapper {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+html {
+    background-color:ghostwhite;
+}
+
+.sidebar {
+    padding: 100px;
+    line-height: 30px;
+    background-color:gainsboro;
+    grid-row: 1/4;
+    grid-column: 1;
+}
+
+.review {
+    padding: 10px;
+    background-color: gainsboro;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.rating {
+    padding: 10px;
+    background-color: gainsboro;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.sentiment {
+    padding: 10px;
+    background-color: gainsboro;
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.visitors {
+    padding: 10px;
+    background-color: gainsboro;
+    grid-row: 2/4;
+    grid-column: 2/5;
+}
+
+.square {
+    background-color: silver;
+    height: 60%;
+    width: 95%;
+    margin: 30px;
+}
+
+.analysis {
+    text-align: center;
+}
