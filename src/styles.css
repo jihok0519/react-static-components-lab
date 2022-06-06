@@ -14,7 +14,9 @@ html {
 }
 
 .sidebar {
-    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     line-height: 30px;
     background-color:gainsboro;
     grid-row: 1/4;
