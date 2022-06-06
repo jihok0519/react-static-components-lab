@@ -1,4 +1,6 @@
 .wrapper {
+    background-color: whitesmoke;
+    padding: 35px;
     margin: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
